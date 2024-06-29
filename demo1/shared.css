@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(233,215,207);
+    text-align: center;
+    color:rgb(83,75,75);
+    margin:50px;
+}
+h1{
+    font-family: 'Playfair Display';
+    border: 1px;
+}
+p{
+    font-family: 'Playfair Display';
+    color: brown;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.mi
+{
+    font-size: 17px;
+}
+a{
+    font-family: 'Playfair Display';
+    color: rgb(5, 5, 5);
+    text-decoration: underline;
+}
+ 
+.main1
+{
+    background-color: rgb(250, 159, 143);
+    width: 800px;
+    margin: 200px auto 72px auto;
+    padding: 24px;
+    border: 5px solid rgb(44,44,44);
+    border-radius: 8px;
+    box-shadow: 1px 1px 2px;
+}
+.main1 img{
+
+    width:200px;
+    height: 200px;
+    border-radius:100px;
+    border: 5px solid rgb(44,44,44);
+    margin-top: -134px;
+    
+}

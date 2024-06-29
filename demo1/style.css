@@ -1,0 +1,31 @@
+h1{
+    font-family: sans-serif; 
+    text-align: center;
+     color: darkblue"
+}
+p{
+    font-family: 'Croissant One' ;
+     color:red;
+      text-align:center;
+}
+a{
+    color: gold;
+    text-decoration: none;
+}
+a:hover
+{
+    text-decoration: underline;
+}
+#mine
+{
+    color: rgb(13, 52, 226);
+    font-weight: 2000;
+    font-size: 35px;
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+body{
+    text-align: center;
+}

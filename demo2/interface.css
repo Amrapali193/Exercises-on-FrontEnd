@@ -1,0 +1,57 @@
+h1{
+    font-size: 40px;
+    font-family: 'Geneva';
+    color: rgb(33, 66, 255); 
+}
+ul
+{
+margin: 0;
+padding: 0;
+list-style:none ;
+}
+a:hover,
+a:active
+{
+    text-decoration: underline;
+    background-color: rgb(153, 248, 232);
+}
+a
+{
+color: red;
+padding: 2px 6px;
+background-color: darkkhaki;
+border-radius: 5px;
+text-decoration: none;
+}
+
+header img{
+    width: 200px;
+}
+header{
+    text-align: center;
+}
+
+main
+{
+    background-color: rgb(33, 66, 255);
+    padding: 20px;
+    width: 650px;
+    margin: 50px auto;
+    
+}
+li{
+    padding-left: 12px;
+    margin:14px 0px;
+    border-left: 5px solid transparent;
+}
+.m
+{
+    border-color: rgb(255, 4, 38);   
+}
+footer{
+    text-align: center;
+}
+footer a{
+    padding:4px;
+   
+}

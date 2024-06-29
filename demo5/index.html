@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>HTML Forms</title>
+</head>
+<body>
+
+        <header>
+            <h1>personal details</h1>
+        </header>
+        <main>
+            <form action="/user-data" method="GET">
+                <section>
+                    <ul>
+                        <li>
+                            <label>Your name</label>
+                            <input type="text" name="username" required placeholder="amrapali"/>
+                        </li>
+                        <li>
+                            <label>Your email address</label>
+                            <input type="email" name="user-email" id="user email">
+                        </li>
+                        <li>
+                            <label>Your birthday</label>
+                            <input type="date" id="birthdate" name="username">
+                        </li>
+                        <li>
+                            <label for="userpassword">Your password</label>
+                            <input type="password" name="user-password">
+                        </li>
+                    </ul>
+                </section>
+                <section>
+                    <ul>
+                        <li>
+                            <label for="user age">Your age</label>
+                                <input type="number" step="2">
+            
+                        </li>
+                        <li>
+                        <label for="fav color">Your favourite color</label>
+                            <select id="favcolor" name="favcolor"> 
+                    <option value="blue">blue</option>
+                    <option value="black">black</option>
+                    <option value="green">green</option>
+                </select>
+                        </li>
+                    </ul>
+
+                </section>
+                <section>
+                    <label for="usermessage">Your message</label>
+                    <textarea id="usermessage"></textarea>
+                </section>
+                    
+            
+            
+            
+            
+            
+                <h2>How should we verify your account?</h2>
+                <section>
+                    <ul>
+                        <li class="form-control-inline">
+                            <input type="radio" name="verify" id="verify text-message" value="verify message"/>
+                            <label for="verify-text message">via text message</label>
+                        </li>
+                        <li class="form-control-inline">
+                            <input type="radio" name="verify" id="verify email" value="email"/>
+                            <label for="verify-email message">via email</label>
+                        </li>
+                        <li class="form-control-inline">
+                            <input type="radio" name="verify" id="verify-mobile" value="mobile"/>
+                    <label for="verify mobile-number">via mobile-number</label>
+                        </li>
+                        
+                    </ul>
+                </section>
+                
+                
+                <section>
+                    <li class="form-control-inline">
+                        <input type="checkbox" id="terms" name="terms">
+                        <label>Agree to terms</label></li>
+                        <div class="form-control-inline">
+                            <input type="checkbox" id="contact-email" name="contact">
+                            <label for="email">contact me via email</label></div>
+                        
+                </section>
+            
+                <button>Save</button>
+            </form>
+        </main>
+    
+    
+</body>
+</html>
